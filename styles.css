@@ -59,9 +59,20 @@ li{
     display: table-column;
 } */
 
+
 .venue-items{
-    display: table-column;
+    text-align: left;
 }
+
+
+
+#venue-week #venue{
+    text-align: left;
+    font-family: serif;
+    font-weight: 700;
+}
+
+
 .bandpics{
     width: 300px;
     height: 300px;
@@ -73,7 +84,7 @@ li{
 
 .carousel-item img{
     width: 400px;
-    height: 700px;
+    height: 625px;
     padding-right:  50px;
     padding-left: 25px;
     padding-top: 20px;
@@ -91,7 +102,4 @@ li{
 input{
     background-color: transparent skyblue;
     font-size: 300px;
-}
-
-#votePage{
 }
