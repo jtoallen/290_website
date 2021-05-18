@@ -55,6 +55,9 @@ li{
     padding-left: 100px;
     padding-right: 100px;
 }
+/* #bandName{
+    display: table-column;
+} */
 
 .venue-items{
     display: table-column;
