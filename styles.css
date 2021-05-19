@@ -42,13 +42,15 @@ nav{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     background-color: #e5e5e5 ;
+    position: relative;
+    top: -25px; 
+    left: 1140px;
 }
 
 #submitButton:hover {
     background-color:#55a630;
     font-size: 25px;
 }
-
 
 li{
     display: inline-block;
@@ -74,12 +76,30 @@ li{
 
 
 .bandpics{
-    width: 300px;
-    height: 300px;
+    width:550px;
+    height: 550px;
     padding-right:  50px;
     padding-left: 25px;
     padding-top: 20px;
     padding-bottom: 50px;
+}
+
+/* .carousel-inner{
+    width: 900px;
+    height: 1550px;
+    padding-right:  50px;
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+} */
+
+.img-credit{
+    font-size: 20px;
+    text-indent: 850px;
+}
+.img1, .img2, .img3, .img4, .img5{
+    font-size: 20px;
+    text-indent: 850px;
 }
 
 .carousel-item img{
@@ -102,4 +122,15 @@ li{
 input{
     background-color: transparent skyblue;
     font-size: 300px;
+}
+
+#venue{
+    font-size: 80px ;
+    background-color: #9a031e;
+    color: #fb8b24;
+    text-align: center;    
+}
+
+#check-out-venue{
+    text-align: center;
 }
