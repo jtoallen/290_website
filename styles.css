@@ -44,7 +44,7 @@ nav{
     background-color: #e5e5e5 ;
     position: relative;
     top: -25px; 
-    left: 1140px;
+    left: 840px;
 }
 
 #submitButton:hover {
@@ -156,4 +156,12 @@ input{
     background-color: #2d00f7;
   }
 
+#event-list{
+    margin: 20px;
+    padding: 20px;
+  }
 
+  #event-date{
+      text-align: center;
+      font-size: 40px;
+  }
