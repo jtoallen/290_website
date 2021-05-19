@@ -250,11 +250,11 @@ input{
   }
 
 :nth-of-type(1) #bandName{
-    background-color: green; 
+    background-color: blue; 
     color: white;
 }
 
 :nth-of-type(1) #openSlot{
-    background-color:blue; 
+    background-color:green; 
     color:white;
 }
