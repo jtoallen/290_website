@@ -122,15 +122,24 @@ input{
 
 #venue{
     font-size: 80px ;
-    background-color: #9a031e;
-    color: #fb8b24;
+    background-color:#424242;;
+    color: white;
     text-align: center;    
 }
 
 #check-out-venue{
     text-align: center;
 }
+#venue-motto{
+    font-size: 45px;
+    color:#bf0603;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
 
+#about-venue{
+    margin: 20px;
+    padding: 20px;
+}
 
 .btn {
     background-color:#4361ee;
@@ -144,6 +153,7 @@ input{
   }
   
 .btn:hover {
-    background-color: RoyalBlue;
+    background-color: #2d00f7;
   }
+
 
