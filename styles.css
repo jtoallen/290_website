@@ -89,10 +89,17 @@ li{
     padding-bottom: 50px;
 } */
 
-.img-credit{
-    font-size: 20px;
-    text-indent: 850px;
+.vote-img-credit{
+
+    text-indent: 25px; 
+    padding-left: 20px;
+    padding-top: 10px;
+    color: #333;
+    font-size: 14px;
+    font-style: italic;
+    font-family: 'Verdana';
 }
+
 .img1, .img2, .img3, .img4, .img5{
     font-size: 20px;
     text-indent: 850px;
@@ -120,6 +127,7 @@ input{
     font-size: 300px;
 }
 
+/* info on index.html re: venue section */
 #venue{
     font-size: 80px ;
     background-color:#424242;;
@@ -141,6 +149,7 @@ input{
     padding: 20px;
 }
 
+/* button for download food drink menu */
 .btn {
     background-color:#4361ee;
     border: solid;
@@ -151,11 +160,13 @@ input{
     margin: 15px;
     
   }
-  
+
 .btn:hover {
     background-color: #2d00f7;
   }
 
+
+/* css for contestx page */
 #event-list{
     margin: 20px;
     padding: 20px;
