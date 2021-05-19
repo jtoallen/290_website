@@ -130,3 +130,20 @@ input{
 #check-out-venue{
     text-align: center;
 }
+
+
+.btn {
+    background-color:#4361ee;
+    border: solid;
+    color: white;
+    padding: 10px 50px 20px;
+    cursor: pointer;
+    font-size: 13px;
+    margin: 15px;
+    
+  }
+  
+.btn:hover {
+    background-color: RoyalBlue;
+  }
+
