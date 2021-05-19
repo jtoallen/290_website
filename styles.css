@@ -38,7 +38,7 @@ nav{
     background-color: #0096c7;
 }
 
-#submitButton{
+/* #submitButton{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     background-color: #e5e5e5 ;
@@ -50,7 +50,7 @@ nav{
 #submitButton:hover {
     background-color:#55a630;
     font-size: 25px;
-}
+} */
 
 li{
     display: inline-block;
@@ -58,6 +58,7 @@ li{
     padding-right: 100px;
 }
 
+/* re: index.html page */
 .venue-items{
     text-align: left;
 }
@@ -68,66 +69,6 @@ li{
     font-weight: 700;
 }
 
-
-.bandpics{
-    width:550px;
-    height: 550px;
-    padding-right:  50px;
-    padding-left: 25px;
-    padding-top: 20px;
-    padding-bottom: 50px;
-}
-
-
-
-/* .carousel-inner{
-    width: 900px;
-    height: 1550px;
-    padding-right:  50px;
-    padding-left: 25px;
-    padding-top: 20px;
-    padding-bottom: 50px;
-} */
-
-.vote-img-credit{
-
-    text-indent: 25px; 
-    padding-left: 20px;
-    padding-top: 10px;
-    color: #333;
-    font-size: 14px;
-    font-style: italic;
-    font-family: 'Verdana';
-}
-
-.img1, .img2, .img3, .img4, .img5{
-    font-size: 20px;
-    text-indent: 850px;
-}
-
-.carousel-item img{
-    width: 400px;
-    height: 625px;
-    padding-right:  50px;
-    padding-left: 25px;
-    padding-top: 20px;
-    padding-bottom: 50px;
-}
-
-#lineUp{
-    text-align: center;
-}
-
-.upcoming{
-    border-bottom: 1.5px solid black;
-}
-
-input{
-    background-color: transparent skyblue;
-    font-size: 300px;
-}
-
-/* info on index.html re: venue section */
 #venue{
     font-size: 80px ;
     background-color:#424242;;
@@ -165,8 +106,139 @@ input{
     background-color: #2d00f7;
   }
 
+.img1, .img2, .img3, .img4, .img5{
+    font-size: 20px;
+    text-indent: 850px;
+}
 
-/* css for contestx page */
+.carousel-item img{
+    width: 400px;
+    height: 625px;
+    padding-right:  50px;
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+
+/* re: vote.html page */
+.bandpics{
+    width:550px;
+    height: 550px;
+    padding-right:  50px;
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+#submitButton{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    background-color: #e5e5e5 ;
+    position: relative;
+    top: -25px; 
+    left: 840px;
+}
+
+#submitButton:hover {
+    background-color:#2d00f7;
+    color: white; 
+    font-size: 25px;
+}
+.vote-img-credit{
+    text-indent: 25px; 
+    padding-left: 20px;
+    padding-top: 10px;
+    color: #333;
+    font-size: 14px;
+    font-style: italic;
+    font-family: 'Verdana';
+}
+#lineUp{
+    text-align: center;
+}
+
+
+
+/* .carousel-inner{
+    width: 900px;
+    height: 1550px;
+    padding-right:  50px;
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+} */
+
+
+
+/* .img1, .img2, .img3, .img4, .img5{
+    font-size: 20px;
+    text-indent: 850px;
+}
+
+.carousel-item img{
+    width: 400px;
+    height: 625px;
+    padding-right:  50px;
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+} */
+
+/* for vote.html page */
+/* #lineUp{
+    text-align: center;
+} */
+
+.upcoming{
+    border-bottom: 1.5px solid black;
+}
+
+input{
+    background-color: transparent skyblue;
+    font-size: 300px;
+}
+
+/* info on index.html re: venue section */
+/* #venue{
+    font-size: 80px ;
+    background-color:#424242;;
+    color: white;
+    text-align: center;    
+}
+
+#check-out-venue{
+    text-align: center;
+}
+#venue-motto{
+    font-size: 45px;
+    color:#bf0603;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+#about-venue{
+    margin: 20px;
+    padding: 20px;
+}
+
+/* button for download food drink menu */
+/* .btn {
+    background-color:#4361ee;
+    border: solid;
+    color: white;
+    padding: 10px 50px 20px;
+    cursor: pointer;
+    font-size: 13px;
+    margin: 15px;
+    
+  }
+
+.btn:hover {
+    background-color: #2d00f7;
+  } */ 
+
+
+/* css for contest page */
 #event-list{
     margin: 20px;
     padding: 20px;
@@ -176,3 +248,13 @@ input{
       text-align: center;
       font-size: 40px;
   }
+
+:nth-of-type(1) #bandName{
+    background-color: green; 
+    color: white;
+}
+
+:nth-of-type(1) #openSlot{
+    background-color:blue; 
+    color:white;
+}
