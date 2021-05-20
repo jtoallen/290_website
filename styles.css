@@ -258,3 +258,36 @@ input{
     background-color:green; 
     color:white;
 }
+
+
+/* Sign Up Page */
+/* Form Styling */
+.signup{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    /* background-color: #e5e5e5 ; */
+    text-indent:.25em; 
+    top: 25px; 
+    left: 840px;
+}
+.signup, .input{
+    margin-left: 20px;
+}
+
+.signUpSubmit{
+    background-color:#2d00f7;
+    color: white; 
+    font-size: 25px;
+    padding: 7px;
+    /* bor: 40px; */
+}
+.signUpSubmit:hover {
+    background-color:#2d00f7;
+    color: white; 
+    font-size: 30px;
+}
+.formDiv{
+    padding: 5px;
+
+}
+

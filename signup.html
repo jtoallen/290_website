@@ -35,7 +35,40 @@
         </nav>
     </header>
 
-
+    <form action=" http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php "
+        method="POST">
+        <div class="formDiv">
+            <label class="signup" for="fname">First name:</label><br>
+            <input class="signup" type="text" id="fname" name="fname" required><br>
+        </div>
+        <div class="formDiv">
+            <label class="signup" for="lname">Last name:</label><br>
+            <input class="signup" type="text" id="lname" name="lname" required>
+        </div>
+        <div class="formDiv">
+            <label class="signup" for="email">Email:</label><br>
+            <input class="signup" type="email" id="email" name="email" required>
+        </div>
+        <div class="formDiv">
+            <label class="signup" for="gname">Group name:</label><br>
+            <input class="signup" type="text" id="gname" name="gname" required><br>
+        </div>
+        <div class="formDiv">
+            <label class="signup" for="gnum">Number In Group:</label><br>
+            <input class="signup" type="number" min="1" id="gnum" name="gnum" required><br>
+        </div>
+        <div class="formDiv">
+            <label class="signup" for="groupnum">Show Date 1st Choice</label><br>
+            <input class="signup" type="date" id="showdate" name="showdate" required><br>
+        </div>
+        <div class="formDiv">
+            <label class="signup" for="groupnum">Show Date 2nd Choice</label><br>
+            <input class="signup" type="date" id="showdate" name="showdate" required><br>
+        </div>
+        <div class="formDiv">
+            <input class="signUpSubmit" type="submit" value="Submit">
+        </div>
+    </form>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
