@@ -190,6 +190,13 @@ input{
     font-size: 300px;
 }
 
+.artistVoteCount{
+    font-size: 20px;
+    /* margin-left: 100px; */
+}
+
+
+
 /* CSS FOR CONTEST PAGE */
 #event-list{
     margin: 20px;
