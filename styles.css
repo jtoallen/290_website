@@ -130,7 +130,7 @@ header a{
     cursor: pointer;
     font-size: 13px;
     margin: 15px;
-    
+
   }
 
 .btn:hover {
@@ -195,6 +195,57 @@ input{
     /* margin-left: 100px; */
 }
 
+#a1ShowVote{
+    text-align: left;
+    margin-left: 200px;
+}
+#a2ShowVote{
+    text-align: left;
+    margin-left: 200px;
+}
+#a3ShowVote{
+    text-align: left;
+    margin-left: 200px;
+}
+#a4ShowVote{
+    text-align: left;
+    margin-left: 200px;
+}
+#a5ShowVote{
+    text-align: left;
+    margin-left: 200px;
+}
+
+#artist1Button{
+    /* text-align: left; */
+    background-color: #2d00f7;
+    color:white;
+    margin-left: 183px;
+}
+#artist2Button{
+    /* text-align: left; */
+    background-color: #2d00f7;
+    color:white;
+    margin-left: 183px;
+}
+#artist3Button{
+    /* text-align: left; */
+    background-color: #2d00f7;
+    color:white;
+    margin-left: 183px;
+}
+#artist4Button{
+    /* text-align: left; */
+    background-color: #2d00f7;
+    color:white;
+    margin-left: 183px;
+}
+#artist5Button{
+    /* text-align: left; */
+    background-color: #2d00f7;
+    color:white;
+    margin-left: 183px;
+}
 
 
 /* CSS FOR CONTEST PAGE */
