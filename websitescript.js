@@ -66,8 +66,3 @@ artist5Button.addEventListener('click', function () {
     votedA5 = true;
 });
 
-const formInput = document.querySelectorAll(".formDiv.signup input");
-
-formInput.addEventListener('click', function () {
-    document.body.backgroundColor = "red";
-});
